@@ -63,14 +63,5 @@ HomeScreen sisältää käyttöliittymän, joka:
   - Show only done tasks
   - Show all tasks
 
-UI käyttää ViewModelia näin:
-
-```kotlin
-val viewModel: TaskViewModel = viewModel()
-setContent {
-    Viikko1Theme {
-        HomeScreen()
-    }
-}
 
 
